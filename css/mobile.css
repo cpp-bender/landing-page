@@ -3,6 +3,7 @@
     padding-top: .5rem;
     padding-bottom: .25rem;
     height: 80px;
+    overflow: hidden;
 }
 
 #training .items{
@@ -13,4 +14,9 @@
 
 #training .items .item{
     width: 100%;
+}
+
+.courses .course{
+    display: flex;
+    flex-direction: column;
 }
