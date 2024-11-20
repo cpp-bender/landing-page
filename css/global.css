@@ -57,3 +57,19 @@
     max-width: 1100px;
     margin: 0 auto;
 }
+
+.form-group{
+    padding: .25rem 0;
+}
+
+.form-control{
+    width: 100%;
+    padding: .5rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 10px;
+}
+
+.form-group label{
+    display: block;
+}
