@@ -11,7 +11,7 @@ a{
 
 h1{
     font-family: "Sour Gummy" , "sans-serif";
-    color: red;
+    color:  #fff;
 }
 
 #navbar{
@@ -55,8 +55,32 @@ h1{
 
 #home .name h2{
     margin-bottom: .75rem;
+    color: #336ea2;
+    font-family: "Sour Gummy" , "sans-serif";   
 }
 
 #home .name p{
+    opacity: .75;
+}
+
+#training{
+    color: #fff;
+    padding: 1rem;
+}
+
+#training .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#training .items .item{
+    width: 33%;
+    text-align: center;
+    padding: .5rem;
+}
+
+#training .items .item:hover{
+    color: red;
     opacity: .75;
 }

@@ -4,3 +4,13 @@
     padding-bottom: .25rem;
     height: 80px;
 }
+
+#training .items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#training .items .item{
+    width: 100%;
+}
